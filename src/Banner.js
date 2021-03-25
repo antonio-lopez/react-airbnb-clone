@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-import './Banner.css';
-import { Button } from '@material-ui/core';
 import Search from './Search';
-
-// target the search button and add an onclick function
-//create function and change state inide it
+import { Button } from '@material-ui/core';
+import { useHistory } from 'react-router';
+import './Banner.css';
 
 function Banner() {
   const [showSearch, setShowSearch] = useState(false);
+  const history = useHistory();
 
   return (
     <div className='banner'>
@@ -26,7 +25,9 @@ function Banner() {
         <h5>
           Plan a different kind of gataway to uncover the hidden gems near you.
         </h5>
-        <Button variant='outlined'>Explore Nearby</Button>
+        <Button onClick={() => history.push('/search')} variant='outlined'>
+          Explore Nearby
+        </Button>
       </div>
     </div>
   );
