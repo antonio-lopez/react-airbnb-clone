@@ -6,7 +6,7 @@
 
 ### 🏠 [Homepage](https://antonio-airbnb-clone.netlify.app/)
 
-![screenshot](https://raw.githubusercontent.com/antonio-lopez/react-airbnb-clone/main/uploads/airbnb-clone-screenshot.png?token=AIWOL54NV67FOM56VCL474DA5YHEA)
+![screenshot](https://raw.githubusercontent.com/antonio-lopez/react-airbnb-clone/main/uploads/airbnb-clone-screenshot2.png?token=AIWOL5YKVWFTLBBRXANPJWLA5YJD2)
 
 ## Install
 
